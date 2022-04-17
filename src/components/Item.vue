@@ -5,19 +5,17 @@
       <a :href="item.url" target="_blank" rel="noopener">{{ item.title }}</a>
       <span class="host"> ({{ item.url }})</span>
     </span>
-    <br>
+    <br />
     <span class="meta">
-      <span class="by">
-        by {{ item.by }}
-      </span>
+      <span class="by"> by {{ item.by }} </span>
     </span>
   </li>
 </template>
 
 <script>
 export default {
-  props: ['item']
-}
+  props: ["item"],
+};
 </script>
 
 <style scoped>
@@ -46,7 +44,6 @@ export default {
 }
 .news-item .meta a,
 .news-item .host a {
-  color: #828282;
   text-decoration: underline;
 }
 .news-item .meta a:hover,

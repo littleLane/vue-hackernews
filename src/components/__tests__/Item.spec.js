@@ -4,7 +4,7 @@ import Item from '../Item.vue'
 describe('Item.vue', () => {
   test('renders item.url', () => {
     const item = {
-      url: 10
+      url: 'https://geohot.github.io//blog/jekyll/update/2022/04/16/vampire-attack-twitter.html)'
     }
     const wrapper = shallowMount(Item, {
       propsData: { item }
